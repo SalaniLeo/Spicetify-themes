@@ -31,5 +31,7 @@ elif [ "$1" = "--nord" ]; then
 else
   echo "Invalid argument: $1"
   echo "Usage: $0 [--adwaita|--nord]"
+  echo "    --adwaita - Installs Adwaita theme"
+  echo "    --nord    - Installs Nord theme"
   exit 1
 fi
